@@ -6,7 +6,7 @@ let adjectives = ["funny","scary","friendly","nice","easy-going","smart","good-l
 let occupations = ["police officer","lunch lady", "teacher", "friend", "person", "student", "CEO", "plumber", "neighbor",
 "landlord", "gardener", "lawyer", "child", "adult", "king", "prince", "princess", "technician"];
 const choose = (arr) =>{
-    return Math.floor(Math.random()*arr.length);
+    return arr[Math.floor(Math.random()*arr.length)];
 }
 let name = choose(names);
 let adjective = choose(adjectives);
