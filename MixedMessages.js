@@ -3,7 +3,7 @@ let names = ["Adrian","Bob","Charlie","Darren","Emily","Fanny","Garen","Henry","
 "Vex","Winson","Xenith","Yin","Zana"];
 let adjectives = ["funny","scary","friendly","nice","easy-going","smart","good-looking",
 "amicable","strict","helpful","hardworking", "awesome", "one of a kind"];
-let occupations = ["police officer","lunch lady", "teacher", "friend", "person", "student", "CEO", "plumber", "neighbor",
+let occupations = ["police officer","server", "teacher", "friend", "person", "student", "CEO", "plumber", "neighbor",
 "landlord", "gardener", "lawyer", "child", "adult", "king", "prince", "princess", "technician"];
 const choose = (arr) =>{
     return arr[Math.floor(Math.random()*arr.length)];
